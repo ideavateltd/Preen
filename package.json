@@ -1,5 +1,5 @@
 {
-  "name": "preen-2",
+  "name": "preen",
   "version": "2.0.0",
   "homepage": "https://github.com/braddenver/preen",
   "description": "updated version of preen: preen unwanted files in packages installed via Bower",
@@ -8,13 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "async": "~0.2.9",
-    "bower": "1.8.8",
-    "fs.extra": "1.2.x",
-    "readdirp": "3.0.2",
-    "minimatch": "3.0.4",
-    "optimist": "0.6.x",
-    "winston": "2.4.4"
+    "async": "^0.2.9",
+    "bower": "^1.8.8",
+    "fs.extra": "^1.2.0",
+    "readdirp": "^3.0.2",
+    "minimatch": "^3.0.4",
+    "optimist": "^0.6.0",
+    "winston": "^2.4.4"
   },
   "repository": {
     "type": "git",
@@ -38,4 +38,3 @@
     "preen": "./bin/preen"
   }
 }
-
